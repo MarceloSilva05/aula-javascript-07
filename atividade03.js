@@ -4,8 +4,8 @@ let texto="Todos pensam em mudar a humanidade e ninguém pensa em mudar a si mes
  console.log(texto.length);
 console.log(texto.toUpperCase());
  for (let n=0;n<texto.length;n++) {
-     if(texto.charAt(n)=="a"||texto.charAt(n)=="e"||texto.charAt(n)=="i"||texto.charAt(n)=="o"||texto.charAt(n)=="u") {
-         contando+=1;
+     if(texto.charAt(n)=="a"||texto.charAt(n)=="e"||texto.charAt(n)=="é"||texto.charAt(n)=="i"||texto.charAt(n)=="o"||texto.charAt(n)=="u") {
+         contando++;
      }
  }
  console.log(contando);
